@@ -1,4 +1,5 @@
 # Python
+__*
 __pycache__/
 *.py[cod]
 *$py.class
@@ -36,4 +37,3 @@ ENV/
 data/
 *.log
 *.fif
-**/__pycache__

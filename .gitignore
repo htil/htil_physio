@@ -36,4 +36,4 @@ ENV/
 data/
 *.log
 *.fif
-__pycache__/
+**/__pycache__

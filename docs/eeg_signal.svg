@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background with gradient -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+    
+    <!-- Signal Container -->
+    <rect x="250" y="40" width="300" height="120" 
+          fill="rgba(255,255,255,0.1)" 
+          rx="15" 
+          ry="15"/>
+
+    <!-- Channel 1 -->
+    <path d="M250,100 
+             C270,80 290,120 310,100 
+             C330,80 350,120 370,100 
+             C390,80 410,120 430,100 
+             C450,80 470,120 490,100 
+             C510,80 530,120 550,100"
+          fill="none" 
+          stroke="#4CAF50" 
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Channel 2 -->
+    <path d="M250,120 
+             C270,100 290,140 310,120 
+             C330,100 350,140 370,120 
+             C390,100 410,140 430,120 
+             C450,100 470,140 490,120 
+             C510,100 530,140 550,120"
+          fill="none" 
+          stroke="#FFC107" 
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Channel 3 -->
+    <path d="M250,140 
+             C270,120 290,160 310,140 
+             C330,120 350,160 370,140 
+             C390,120 410,160 430,140 
+             C450,120 470,160 490,140 
+             C510,120 530,160 550,140"
+          fill="none" 
+          stroke="#E91E63" 
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Decorative elements -->
+    <circle cx="240" cy="100" r="4" fill="#4CAF50"/>
+    <circle cx="240" cy="120" r="4" fill="#FFC107"/>
+    <circle cx="240" cy="140" r="4" fill="#E91E63"/>
+</svg> 
